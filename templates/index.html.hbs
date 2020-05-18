@@ -6,7 +6,7 @@
   <link rel="icon" type="image/x-icon" href="/img/favicon.ico">
   <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
   <title>
-    reveal.js Gallery
+    Fares' Gallery
   </title>
   <meta content='width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0, shrink-to-fit=no' name='viewport' />
   <!--     Fonts and icons     -->
@@ -21,7 +21,7 @@
     <div class="container">
       <!-- Brand and toggle get grouped for better mobile display -->
       <div class="navbar-translate">
-        <a class="navbar-brand" href="#0">reveal.js Gallery</a>
+        <a class="navbar-brand" href="#0">Fares' Gallery</a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" aria-expanded="false" aria-label="Toggle navigation">
           <span class="sr-only">Toggle navigation</span>
           <span class="navbar-toggler-icon"></span>
@@ -38,7 +38,7 @@
             </a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" rel="tooltip" title="" data-placement="bottom" href="https://github.com/mattdark/reveal.js-gallery" target="_blank" data-original-title="Fork me!">
+            <a class="nav-link" rel="tooltip" title="" data-placement="bottom" href="https://github.com/faresismail96" target="_blank" data-original-title="Check out my other projects!">
               <i class="fa fa-github"></i>
             </a>
           </li>
@@ -60,12 +60,12 @@
                                 -->
                 <li class="nav-item">
                   <a class="nav-link active" href="#profile" role="tab" data-toggle="tab">
-                    <i class="material-icons">face</i> Profile
+                    <i class="material-icons">face</i> About Me
                   </a>
                 </li>
                 <li class="nav-item">
                   <a class="nav-link" href="#slides" role="tab" data-toggle="tab">
-                    <i class="material-icons">photo_library</i> Slides
+                    <i class="material-icons">photo_library</i> Presentations
                   </a>
                 </li>
               </ul>
@@ -80,12 +80,6 @@
                         <p style="text-align: justify;">{{ bio }}
                         </p>
                         <div>
-                          <a target="_blank" href="https://facebook.com/{{ facebook }}" class="btn btn-info btn-round" data-toggle="tooltip" data-original-title="Facebook">
-                            <i class="fa fa-facebook"></i>
-                          </a>
-                          <a target="_blank" href="https://twitter.com/{{ twitter }}" class="btn btn-info btn-round" data-toggle="tooltip" data-original-title="Twitter">
-                            <i class="fa fa-twitter"></i>
-                          </a>
                           <a target="_blank" href="https://linkedin.com/in/{{ linkedin }}" class="btn btn-info btn-round" data-toggle="tooltip" data-original-title="LinkedIn">
                             <i class="fa fa-linkedin"></i>
                           </a>
@@ -119,13 +113,13 @@
                         <div class="form-group">
                           <form id="slides" action="/presentation" method="POST">
                             <select name="path" id="inputState" class="form-control">
-                              <option value="" disabled selected>Choose...</option>
+                              <option value="" disabled selected>Pick a Presentation...</option>
                               {{ #each slides }}
                                 <option value="{{ url }}">{{ title }}</option>
                               {{ /each }}
                             </select>
                             <div class="btn-wrapper pt-3">
-                              <button type="submit" class="btn btn-info">Open</button>
+                              <button type="submit" class="btn btn-info">Launch</button>
                             </div>
                           </form>
                         </div>
@@ -147,14 +141,13 @@
     <div class="modal-dialog" role="document">
       <div class="modal-content">
         <div class="modal-header">
-          <h5 class="modal-title">reveal.js Gallery</h5>
+          <h5 class="modal-title">Something about me...</h5>
           <button type="button" class="close" data-dismiss="modal" aria-label="Close">
             <i class="material-icons">clear</i>
           </button>
         </div>
         <div class="modal-body">
-          <p><a href="https://revealjs.com/" target="_blank">reveal.js</a> is a framework for creating presentations using HTML. It's an alternative to Microsoft Powerpoint or LibreOffice Impress but using a text editor and any browser. reveal.js Gallery exists as a way to better organize and access all of your presentations from one place. Created using <a href="https://rust-lang.org/" target="_blank">Rust</a> & <a href="https://rocket.rs/" target="_blank">Rocket</a></a>. UI based on <a href="https://www.creative-tim.com/product/material-kit" target="_blank">Material Kit</a> by <a href="https://www.creative-tim.com/" target="_blank">Creative Time</a>.
-          </p>
+          <p>I never was good at those... I guess I'm still not...</p>
         </div>
         <div class="modal-footer">
           <button type="button" class="btn btn-danger btn-link" data-dismiss="modal">Close</button>

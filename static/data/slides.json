@@ -1,20 +1,29 @@
 [
         {
             "id": "1",
-            "file": "presentation1.md",
-            "title": "Title Presentation 1",
-            "description": "Description Presentation 1",
+            "file": "PureConfigFromAtoF.md",
+            "title": "PureConfig From A to F",
+            "description": "PureConfig From A to F",
             "theme": "black.css",
-            "url": "slide1",
-	    "screenshot": "/img/screenshot/presentation1.png"
+            "url": "PureConfigFromAtoF",
+        "screenshot": "/img/screenshot/PureConfigFromAtoF.png"
         },
         {
             "id": "2",
-            "file": "presentation2.md",
-            "title": "Title Presentation 2",
-            "description": "Description Presentation 2",
-            "theme": "white.css",
-            "url": "slide2",
-	    "screenshot": "/img/screenshot/presentation2.png"
+            "file": "PureConfigADTsAsEnvVars.md",
+            "title": "PureConfig Reading ADTs As Env Vars",
+            "description": "Presentation on how to read an ADT as an Environment Variable using PureConfig",
+            "theme": "black.css",
+            "url": "pureconfigADT",
+	    "screenshot": "/img/screenshot/PureConfigADTsAsEnvVars.png"
+        },
+        {
+            "id": "3",
+            "file": "CatsImplicitImportBug.md",
+            "title": "Bug due to Import of Cats Implicit",
+            "description": "Bug that was encountered due to the import of cats implicit",
+            "theme": "black.css",
+            "url": "CatsImplicitImportBug",
+	    "screenshot": "/img/screenshot/CatsImplicitImportBug.png"
         }
 ]

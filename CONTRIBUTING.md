@@ -43,4 +43,3 @@ Explain the problem and include additional details to help maintainers reproduce
 ## Communication channels
 
 Don't hesitate to contact me on [Twitter](https://twitter.com/mariogmd) or by [email](mailto:hi@mariog.xyz)
-

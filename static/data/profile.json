@@ -1,11 +1,11 @@
 [
         {
-            "name": "John Doe",
-            "profile_picture": "christian.jpg",
-            "bio": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis varius maximus purus, non semper justo ultricies semper. Nullam in ipsum a augue consequat scelerisque ac sit amet sapien. Etiam id imperdiet ante, non rhoncus purus. Praesent vitae ligula lacus. Integer ut vehicula lorem, vitae sollicitudin leo. Aenean non arcu ornare, lobortis dolor ut, dictum arcu. Cras posuere, neque quis cursus posuere, sem nulla dapibus erat, at gravida mauris dui sit amet velit.",
+            "name": "Fares Ismail",
+            "profile_picture": "me.png",
+            "bio": "23, Data engineer and attempting to become better of: *List a bunch of stuff here*. I read somewhere that one of the best ways to learn, is to do so publicly. Hence this gallery, it will consist of different presentations I've done... You can also checkout my blog at fares.codes",
             "facebook": "#",
             "twitter": "#",
-            "linkedin": "#",
-            "github": "#"
+            "linkedin": "fares-ismail-757291147",
+            "github": "faresismail96"
         }
 ]
